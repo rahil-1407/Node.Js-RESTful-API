@@ -1,0 +1,14 @@
+{
+  "name": "node-tuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "cross-env NODE_ENV=production node server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Rahil Sinha",
+  "license": "ISC"
+}
